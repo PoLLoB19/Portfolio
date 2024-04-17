@@ -26,75 +26,73 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
-    <div class="relative ">
+  <body class="">
+    <div class="relative">
       <video
         src="./video/future.mp4 "
         autoplay
         muted
         loop
-        class="w-[100vw]  hidden sm:block"
+        class="w-[100vw] hidden sm:block"
       ></video>
     </div>
 
     <div class="res relative h-[80vh] bg-transparent sm:hidden"></div>
-      <div
-        class="absolute top-14 sm:flex 
-         w-[98vw]  sm:justify-between px-10  upo">
-        <div class="po sm:flex  gap-4">
-          <div
-            class="ph h-[50px] w-[50px] rounded-[50%] overflow-hidden border-[3px] border-[#ffffff] cursor-pointer"
-          >
-            <img src="./pic/IMG_7500.jpg" alt="" />
-          </div>
-          <div class="header">
-            <h1 class="text-white text-[35px] afa">Portfolio.me</h1>
-          </div>
+    <div class="absolute top-14 sm:flex w-[98vw] sm:justify-between px-10 upo">
+      <div class="po flex flex-col sm:flex-row gap-4 items-center">
+        <div
+          class="ph h-[50px] w-[50px] rounded-[50%] overflow-hidden border-[3px] border-[#ffffff] cursor-pointer"
+        >
+          <img src="./pic/IMG_7500.jpg" alt="" />
         </div>
-
-        <div class="icons flex gap-24 sm:gap-4">
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            class="icon-links text-white text-[25px]"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            class="icon-links text-white text-[25px]"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a
-            href="https://github.com/"
-            target="_blank"
-            class="icon-links text-white text-[25px]"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            class="icon-links text-white text-[25px]"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+        <div class="header">
+          <h1 class="text-white text-[35px] afa">Portfolio.me</h1>
         </div>
       </div>
 
-      <div
-        class="likha absolute top-[45%] sm:top-[25%] lg:top-[35%] content-center w-[98vw] text-[65px] lg:text-[85px] flex-col text-center leading-none text-[#ffffff]"
-      >
-        Welcome To My
-        <div class="text-center">Portfolio</div>
-
-        <div class="button text-[20px] mt-5 lg:mt-10">
-          <button class="border-2 p-4 rounded-xl but btn41-43 btn-41">
-            <a href="#abou">Get Started</a>
-          </button>
-        </div>
+      <div class="icons flex gap-24 sm:gap-4 justify-center">
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="icon-links text-white text-[25px]"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="icon-links text-white text-[25px]"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/"
+          target="_blank"
+          class="icon-links text-white text-[25px]"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="icon-links text-white text-[25px]"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
       </div>
-    
+    </div>
+
     <div
-      class="about h-[130vh] text-white  justify-center px-36 text-center lg:text-left lg:flex  lg:px-36 pt-24 items-center "
+      class="likha absolute top-[45%] sm:top-[25%] lg:top-[35%] content-center w-[98vw] text-[65px] lg:text-[85px] flex-col text-center leading-none text-[#ffffff]"
+    >
+      Welcome To My
+      <div class="text-center">Portfolio</div>
+
+      <div class="button text-[20px] mt-5 lg:mt-10">
+        <button class="border-2 p-4 rounded-xl but btn41-43 btn-41">
+          <a href="#abou">Get Started</a>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="about h-full text-white justify-center px-36 text-center lg:text-left lg:flex lg:px-36 pt-24 items-center overflow-hidden"
       id="abou"
     >
       <div class="lis text-[65px] px-24 hidden lg:block">
@@ -115,7 +113,7 @@
         </ul>
       </div>
       <div class="lis text-[65px] lg:hidden">ABOUT</div>
-      <div class=" lg:w-[40vw] xl:w-[30vw] 2xl:w-[25vw] pt-10 fg">
+      <div class="lg:w-[40vw] xl:w-[30vw] 2xl:w-[25vw] pt-10 fg w-[60vw]">
         <span class="block">
           Hello! This is Md. Pollob Hossain Sany. I am a 21-year-old web
           developer from Rajshahi,Bangladesh . Currently, I am doing a BA (hons)
@@ -148,34 +146,35 @@
       </div>
     </div>
 
-    <div class="expert h-[100vh] text-white mt-4 ">
-      <div class="lis text-[65px] text-center">EXPERTISE</div>
-      <div class="kol text-[25px] px-24 flex justify-center gap-20 pt-36  ">
+    <div class="expert h-full text-white mt-24 text-center">
+
+       <p class="lis text-[65px] inline">EXPERTISE</p>
+      <div class="kol text-[15px] sm:text-[25px]  flex justify-center gap-20 pt-36 flex-wrap sm:flex-nowrap ">
         <div id="ht" class="text-center flex-row ic">
           <i
-            class="fa-brands fa-html5 text-[105px] text-[#F16529] drop-shadow-lg"
+            class="fa-brands fa-html5 text-[50px] sm:text-[105px] text-[#F16529] drop-shadow-lg"
           ></i>
           <div class="pt-4">HTML</div>
         </div>
         <div class="text-center flex-row ic">
           <i
-            class="fa-brands fa-css3-alt text-[105px] text-[#57b4f7] drop-shadow-lg"
+            class="fa-brands fa-css3-alt text-[50px] sm:text-[105px] text-[#57b4f7] drop-shadow-lg"
           ></i>
           <div class="pt-4">CSS</div>
         </div>
         <div class="text-center flex-row ic">
           <i
-            class="fa-brands fa-js text-[105px] text-[#F7E025] drop-shadow-lg"
+            class="fa-brands fa-js text-[50px] sm:text-[105px] text-[#F7E025] drop-shadow-lg"
           ></i>
           <div class="pt-4">JAVASCRIPT</div>
         </div>
         <div class="text-center flex-row ic">
           <i
-            class="fa-brands fa-wordpress text-[105px] text-[#39b3fa] drop-shadow-lg"
+            class="fa-brands fa-wordpress text-[50px] sm:text-[105px] text-[#39b3fa] drop-shadow-lg"
           ></i>
           <div class="pt-4">WORDPRESS</div>
-         </div>
-     </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
