@@ -1,3 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let right = document.querySelector(".right");
 let left = document.querySelector(".left");
 let slider = document.querySelector(".slide");
