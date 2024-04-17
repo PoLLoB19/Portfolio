@@ -570,7 +570,9 @@ video {
   background-color: #ffffff3a;
 }
 
-
+.about{
+  transition: 1s ease;
+}
 .btn41-43 {
   padding: 10px 25px;
 
