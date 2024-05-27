@@ -98,3 +98,9 @@ slider.addEventListener('mouseout',slideshow);
 
 slideshow();
 
+const resume =document.querySelector(".resum");
+
+resume.addEventListener("click",()=>{
+  let pic =document.querySelector(".resume");
+  pic.classList.toggle("hidden")
+})

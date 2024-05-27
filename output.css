@@ -671,26 +671,40 @@ body{
 
 
  .box button{
-     padding: 3px 15px 3px 15px;
-    font-size: 25px;
+   
   position: absolute;
   top: 40%;
   cursor: pointer;
     border: none;
-  background: none;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+
+  
+  padding: 15px ;
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+
+  
 }
 .box button:hover{
-    background-color: rgb(247, 228, 175);
-    color: #262627;
+   
     transition: 0.5s ease;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
    
 }
 .right {
-  right: 0;
+  right: 1%;
  
  
+}
+.left{
+  left: 1%;
 }
 
 .gol {
