@@ -97,3 +97,4 @@ slider.addEventListener('mouseover',stopslide);
 slider.addEventListener('mouseout',slideshow);
 
 slideshow();
+
